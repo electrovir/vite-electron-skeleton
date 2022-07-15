@@ -20,7 +20,7 @@
         "build": "ts-node -P ./packages/scripts/tsconfig.json -r tsconfig-paths/register ./packages/scripts/src/build.ts",
         "check-imports": "ts-node -P ./packages/scripts/tsconfig.json -r tsconfig-paths/register ./packages/scripts/src/check-imports.ts",
         "precompile": "cross-env MODE=production npm run build",
-        "compile": "killall skeleton; rm -rf dist && electron-builder build --config .electron-builder.config.js --dir --config.asar=false",
+        "compile": "rm -rf dist && electron-builder build --config .electron-builder.config.js --dir --config.asar=false",
         "format": "virmator format write --no-write-config",
         "frontend": "npm install && cd packages/renderer && vite --force --open --config ./vite/vite.config.ts",
         "spellcheck": "virmator spellcheck",
