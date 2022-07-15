@@ -11,6 +11,7 @@
         "globbing",
         "jsonpack",
         "killall",
+        "modivir",
         "precompile",
         "unallowed",
         "vite",
