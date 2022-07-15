@@ -20,6 +20,23 @@ const config = {
     extraMetadata: {
         version: viteVersion,
     },
+    asar: false,
+    mac: {
+        target: {
+            target: 'zip',
+            arch: [
+                'x64',
+                'arm64',
+            ],
+        },
+    },
+    win: {
+        target: 'portable',
+    },
+    linux: {
+        target: 'appImage',
+        maintainer: 'electrovir@users.noreply.github.com',
+    },
 };
 
 // this needs to use an archaic export format for electron-builder
