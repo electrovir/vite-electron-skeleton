@@ -13,4 +13,4 @@ Also based on [`modivir`](https://github.com/electrovir/modivir), one of my othe
 -   `npm run test:full`: run all configured tests (including spellchecking, type checking, etc.).
 -   `npm run format`: format all code.
 
-Tested on Node.js versions `14` and `16`.
+Tested on Node.js `16`.
