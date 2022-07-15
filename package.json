@@ -2,13 +2,13 @@
     "name": "skeleton",
     "version": "0.0.0",
     "private": true,
-    "homepage": "https://github.com/electrovir/vite-eletron-skeleton#readme",
+    "homepage": "https://github.com/electrovir/vite-electron-skeleton#readme",
     "bugs": {
-        "url": "https://github.com/electrovir/vite-eletron-skeleton/issues"
+        "url": "https://github.com/electrovir/vite-electron-skeleton/issues"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/electrovir/vite-eletron-skeleton.git"
+        "url": "git+https://github.com/electrovir/vite-electron-skeleton.git"
     },
     "license": "MIT",
     "author": {
