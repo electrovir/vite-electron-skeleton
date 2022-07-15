@@ -23,18 +23,24 @@ const config = {
     asar: false,
     mac: {
         target: {
-            target: 'zip',
+            target: 'dmg',
             arch: [
                 'x64',
                 'arm64',
             ],
         },
     },
+    dmg: {
+        writeUpdateInfo: false,
+    },
     win: {
         target: 'portable',
     },
     linux: {
-        target: 'appImage',
+        target: [
+            'appImage',
+            'deb',
+        ],
         maintainer: 'electrovir@users.noreply.github.com',
     },
 };
